@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaisri</title>
+</head>
+<body style="background-color:rgb(206, 239, 244)">
+
+    <h1>
+        Contact Us form
+    </h1>
+    <form action="/action_page.php" method="post">
+        <!--To get First Name-->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <!--To get last name-->
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <!--To get phone number-->
+        <label for="phone">Phone:</label>
+        <input type="tel" placeholder="Enter phone" id="phone" name="phone"
+        minlength="10" maxlength="10" size="10"><br><br>
+        <!--To get mail id-->
+        <label for="email">E-mail:</label>
+        <input type="text" placeholder="example@gmail.com"><br><br>
+
+        <!--to get address-->
+        <label for="address">Address1:</label>
+        <input type="text" ><br><br>
+
+        <label for="address">Address2:</label>
+        <input type="text" ><br><br>
+
+        <!--User message-->
+        <label for="text">Message:</label>
+        
+        <textarea name="" id="" cols="60" rows="10"></textarea><br><br>
+
+        <!--Mode of contact information for us-->
+        <label for="contact">Mode of contact:</label>
+        <input type="radio" name="text">Whats app
+        <input type="radio" name="text">Email
+        <input type="radio" name="text">call<br><br>
+        <!--my contact id-->
+        <font size="2"
+          face="Arial"
+          color="blue">
+          <em>
+            For contact: armsri56484@gmail.com
+          </em>
+    </font>
+            
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
